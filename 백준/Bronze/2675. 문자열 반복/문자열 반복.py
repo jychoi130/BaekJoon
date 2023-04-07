@@ -1,7 +1,7 @@
-a = int(input())
-for i in range(a):
-    n, s = input().split()
+n = int(input())
+for i in range(n):
+    num, s = input().split()
     for j in s:
-        for k in range(int(n)):
+        for k in range(int(num)):
             print(j, end = '')
     print()
